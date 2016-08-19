@@ -31,7 +31,7 @@ public class MyBot {
 		searches.add("Louisiana flooding"); 
 		
 		
-		replies.add(" In addition to praying, please consider donating @ https://www.redcross.org/donate/donation?campname=genericflood&campmedium=aspo"); 
+		replies.add(" In addition to praying, please consider #donating @ https://www.redcross.org/donate/donation?campname=genericflood&campmedium=aspo"); 
 		replies.add(" Please help victims of Louisiana #flooding by donating here: https://www.redcross.org/donate/donation?campname=genericflood&campmedium=aspo"); 
 		
 		//keep tweeting forever
@@ -56,7 +56,7 @@ public class MyBot {
 				}
 			}	
 			System.out.println("sleeping");
-			Thread.sleep(5*60*1000);
+			Thread.sleep(30*60*1000);
 		}
 	}
 	
